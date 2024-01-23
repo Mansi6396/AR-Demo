@@ -1,0 +1,27 @@
+.card {
+    margin: auto;
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+}
+.img-box {
+    text-align: center;
+}
+.parent-img-div {
+    margin: 5px 10px 5px 5px;
+    min-height: 220px;
+    justify-content: center;
+    align-items: center;  
+    display: flex; 
+}
+.doorHandle{
+    /* position: absolute; */
+    max-height: 205px;
+    width: auto;
+}
+.view-btn{
+    text-align: center;
+    margin-top: 5px;
+}
