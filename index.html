@@ -12,7 +12,7 @@
         <h1>AR Demo</h1>
     <div class="card">
         <div class="parent-img-div">
-            <img src="IMG/doorHandle.png" class="doorHandle">
+            <img src="IMG/doorHandle.jpg" class="doorHandle">
         </div>
 
         <div class="stars">
@@ -31,5 +31,9 @@
     </div>
 </div>
 <script src="myscript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ar.js"></script>
+<a-scene embedded arjs="sourceType: webcam; detectionMode: mono;">
+    <!-- AR.js content will be dynamically added here -->
+</a-scene>
 </body>
 </html>
